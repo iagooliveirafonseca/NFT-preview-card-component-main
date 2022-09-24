@@ -1,0 +1,170 @@
+@media (max-width:400px){
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  :root{
+    font-size:62.5%; /* 1rem = 10px */
+  }
+  
+  body{
+    background-color: hsl(217, 54%, 11%);
+    color: white; 
+    font-size: 1.1rem;
+  }
+  
+  
+  /*================CONTAINER-BODY===================*/
+  
+  #container-body{
+    width: 100%;
+    height: 90rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  /*================CARD===================*/
+  #container-card{
+    width: 35rem;
+    height: 58rem;
+    margin: auto;
+    border-radius: 2rem;
+    background-color:  hsl(216, 50%, 16%);
+  }
+  
+  /*================CARD-IMAGE===================*/
+  #container-card .card-img .imagem-Etherium{
+    width: 30rem;
+    display: block;
+    margin:auto;
+    margin-top: 2rem;
+    border-radius: 0.75rem;
+    
+  }
+  
+  #container-card .sobre{
+    width: 30rem;
+    height: 30rem;
+    opacity: 0.3;
+    position: absolute;
+    margin-top: -30rem;
+    margin-left: 2.5rem;
+    border-radius: 0.75rem;
+  }
+  
+  .sobre:hover{
+    background-color:  hsl(178, 100%, 50%);
+    opacity: 0.4; 
+  }
+  
+  #container-card .pondo img{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    margin-top: -17rem;
+    margin-left: 15rem;
+  
+    
+  }
+  
+  /*================CONTENT===================*/
+  #content{
+    width: 30rem;
+  
+    margin: auto;
+    padding-top:2rem;
+    
+  }
+  
+  #content h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  #content h1:hover{
+    color: cyan;
+  }
+  
+  #content p{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    color: hsl(215, 51%, 70%);
+  
+   
+    
+  }
+  
+  #content div{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  #content a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+  }
+  
+  #content .ETH{
+  color: cyan;
+  font-weight: bold;
+  }
+  
+  #content .clock{
+    opacity: 0.6;
+  }
+  
+  #content img{
+    margin-right: -12rem;
+  }
+  
+  hr{
+    width: 30rem;
+    opacity: 0.1;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  
+  /*================FOOTER===================*/
+  
+  #footer {
+    width: 30rem;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  #footer > img{
+  
+    width: 3rem;
+    height: 3rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    margin-right: 15px;
+  }
+  
+  #footer > p {
+    font-size: 1.8rem;
+    color: hsl(215, 51%, 70%);
+  }
+  
+  #footer .jules {
+    color: white;
+    text-decoration: none; 
+  }
+  
+  #footer .jules:hover{
+    color: cyan;
+  }
+}
