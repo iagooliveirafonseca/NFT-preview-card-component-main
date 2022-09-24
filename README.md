@@ -5,3 +5,6 @@
 - Página do desáfio (https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 
 - importânte dizer que não precisei utilizar Media Queries para torna-lo respónsivel, como era algo simples, não ouve complexidade, conseguindo deixar responsivo apenas com unidades de medida REM sendo uma unidade relativa (:root font-size: 62.5%; 1rem = 10px)
+
+
+Link da página ativa na web: https://iagooliveirafonseca.github.io/NFT-preview-card-component-main/
